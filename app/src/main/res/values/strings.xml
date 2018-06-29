@@ -1,0 +1,104 @@
+
+<resources
+    xmlns:xliff ="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Quiz App</string>
+    <!--This quiz was adapted from https://www.thoughtco.com/questions-on-basic-chemistry-quiz-609618-->
+    <string name="enter_name">Enter Your Name</string>
+
+    <!-- Text strings for the instruction header and instruction notes
+    -->
+    <string name="instructions">Instructions</string>
+    <string name="instruction_notes">
+        1.  Select an answer for every question. Unanswered questions will be scored as incorrect.
+        \n2.  There are two possible question types:
+            \n\t-Multiple Choice: click the radio button to indicate your choice (Only one answer).
+            \n\t-True/False: click the radio button to indicate your choice.
+        \n3.  Click on the Submit button at the bottom of the page to have your answers graded.</string>
+
+    <!--This stores strings for the questions and the answers
+    Hint: A1 represents the text for Question 1 option A
+          C5 represents the text for Question 5 option C etc...
+    -->
+    <string name="question1">Question <xliff:g>1</xliff:g></string>
+    <string name="question1_text">One of the essential minerals in the human body is salt. How much salt <xliff:g>(NaCl)</xliff:g> is in the average adult human body?</string>
+    <string name="A1"><xliff:g>250</xliff:g> grams</string>
+    <string name="B1"><xliff:g>500</xliff:g> grams</string>
+    <string name="C1"><xliff:g>1</xliff:g> Kilogram</string>
+    <string name="D1">practically none</string>
+
+    <string name="question2">Question <xliff:g>2</xliff:g></string>
+    <string name="question2_text">If you fill a glass to the brim with ice water and the ice melts, what will happen?</string>
+    <string name="A2">The glass will over flow as the ice turns to water. </string>
+    <string name="B2">The level of water in the glass will remain unchanged as the ice melts. </string>
+    <string name="C2">The water level will drop slightly as the ice melts. </string>
+    <string name="D2">I\'ll never find out because I\'ll drink the water or walk away before anything happens. </string>
+
+    <string name="question3">Question <xliff:g>3</xliff:g></string>
+    <string name="question3_text">Water-based liquids can be described as acidic, neutral, or basic, with respect to pH. Which of these describes milk?</string>
+    <string name="A3">Neutral</string>
+    <string name="B3">Slightly Acidic</string>
+    <string name="C3">Slightly Basic</string>
+    <string name="D3">Milk does not have a pH </string>
+
+    <string name="question4">Question <xliff:g>4</xliff:g></string>
+    <string name="question4_text">DNA codes for proteins, which are the building blocks of organisms. What is the most abundant protein in the human body?</string>
+    <string name="A4">Tubulin</string>
+    <string name="B4">Albumin</string>
+    <string name="C4">Collagen</string>
+    <string name="D4">Keratin</string>
+
+    <string name="question5">Question <xliff:g>5</xliff:g></string>
+    <string name="question5_text">What is the most common isotope of hydrogen?</string>
+    <string name="A5">Protium</string>
+    <string name="B5">Deuterium</string>
+    <string name="C5">Tritum</string>
+    <string name="D5">Hydrogen only has one isotope!</string>
+
+
+    <string name="question6">Question <xliff:g>6</xliff:g></string>
+    <string name="question6_text">You can\'t live without water! What is its chemical formula?</string>
+    <string name="A6"><xliff:g>H2</xliff:g></string>
+    <string name="B6"><xliff:g>O2</xliff:g></string>
+    <string name="C6"><xliff:g>H2O2</xliff:g></string>
+    <string name="D6"><xliff:g>H20</xliff:g></string>
+
+    <string name="question7">Question <xliff:g>7</xliff:g></string>
+    <string name="question7_text">Which of these elements is a nonmetal?</string>
+    <string name="A7">Beryllium</string>
+    <string name="B7">Manganese</string>
+    <string name="C7">Aluminum</string>
+    <string name="D7">Sulphur</string>
+
+    <string name="question8">Question <xliff:g>8</xliff:g></string>\
+    <string name="question8_text">Organic chemistry is the study of the compounds that make up living organisms. All organic molecules contain:</string>
+    <string name="A8">Carbon Only</string>
+    <string name="B8">Carbon and Nitrogen</string>
+    <string name="C8">Carbon and Hydrogen</string>
+    <string name="D8">Carbon, Hydrogen, and Oxygen</string>
+
+    <string name="question9">Question <xliff:g>9</xliff:g></string>
+    <string name="question9_text">What do you call an atom that has more protons than electrons?</string>
+    <string name="A9">a molecule</string>
+    <string name="B9">a cation</string>
+    <string name="C9">an anion</string>
+    <string name="D9">an isotope</string>
+
+    <string name="question10">Question <xliff:g>10</xliff:g></string>
+    <string name="question10_text">A drop of food coloring spreading out in a cup of water is an example of which transport process?</string>
+    <string name="A10">Diffusion</string>
+    <string name="B10">Osmosis</string>
+    <string name="C10">Vapor Pressure</string>
+    <string name="D10">Effusion</string>
+
+    <string name="submit">Submit</string>
+
+    <string name="perfect_score">Congrulations <xliff:g id= "name" example = "Charles">%s</xliff:g> \nYou answered all questions correctly. \nYou are a genius!\nCheers</string>
+    <string name="almost_perfect">Wow you were almost perfect <xliff:g id= "name" example = "Charles"> %s </xliff:g> \nYou answered <xliff:g id= "score" example = "7">%d</xliff:g> out of <xliff:g>10</xliff:g> \nCheers</string>
+    <string name="average">Nice try <xliff:g id= "name" example = "Charles">%s</xliff:g> \nYou answered <xliff:g id= "score" example = "7">%d</xliff:g> out of <xliff:g>10</xliff:g> \nCheers</string>
+    <string name="poor">You need to Sharpen your Chemistry Skills <xliff:g id= "name" example = "Charles">%s</xliff:g> \nYou answered <xliff:g id= "score" example = "7">%d</xliff:g> out of <xliff:g>10</xliff:g> \nCheers</string>
+
+    <string name="display_answer">Answers
+                                    \n
+                                    \nQuestion 1: A \nQuestion 2: C \nQuestion 3: B \nQuestion 4: C \nQuestion 5: A \nQuestion 6: D \nQuestion 7: D \nQuestion 8: C \nQuestion 9: B \nQuestion 10: A</string>
+
+</resources>
